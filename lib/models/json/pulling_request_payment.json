@@ -1,0 +1,14 @@
+{
+    "currency": {
+        "_id": "6577fa8a42b77495840ce823",
+        "name": "US Dollar",
+        "code": "USD",
+        "symbol": "$",
+        "rate": 1
+    },
+    "payment": {
+        "method": "paypal",
+        "status": "paid",
+        "transaction_id": "PAYID-MWH27XY11R57423S3748804U"
+    }
+}

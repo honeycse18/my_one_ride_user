@@ -1,0 +1,79 @@
+{
+    "error": false,
+    "msg": "Data fetched successfully",
+    "data": [
+        {
+            "_id": "6588044a69c985a7af1a6aee",
+            "offer": {
+                "_id": "6588041469c985a7af1a6ae0",
+                "user": {
+                    "_id": "65433f430cc7d099be72de63",
+                    "name": "Testing Ride Request",
+                    "phone": "+8801983502051",
+                    "image": "https://appstick-resources.s3.ap-southeast-1.amazonaws.com/one-ride-storage/user/U-G9NSMMX/profile/4a7494f5745107ab-profile_image.jpg"
+                },
+                "date": "2023-12-31T13:30:00.000Z",
+                "type": "vehicle",
+                "from": {
+                    "address": "10 KDA Ave, Khulna, Bangladesh",
+                    "location": {
+                        "lat": 22.81269909739588,
+                        "lng": 89.55745965242386
+                    }
+                },
+                "to": {
+                    "address": "RGJ7+3F8, , Bangladesh",
+                    "location": {
+                        "lat": 22.830112018933004,
+                        "lng": 89.51377518475054
+                    }
+                },
+                "seats": 5,
+                "rate": 10,
+                "category": {
+                    "_id": "6576c279716f399b8e6ddfd1",
+                    "name": "test",
+                    "image": "https://appstick-resources.s3.ap-southeast-1.amazonaws.com/one-ride-storage/categories/C-46XUK6B//7cd3433a59159a45-t2.jpeg"
+                },
+                "vehicle_number": "final-testing-offer",
+                "status": "active",
+                "createdAt": "2023-12-24T10:12:36.293Z",
+                "requests": [
+                    {
+                        "_id": "6588044a69c985a7af1a6aee",
+                        "user": {
+                            "_id": "658801c069c985a7af1a6a3e",
+                            "name": "Passenger",
+                            "phone": "+8801923456258",
+                            "rating": 0
+                        },
+                        "seats": 3,
+                        "status": "accepted"
+                    },
+                    {
+                        "_id": "658bacac7bd42e45f4d47f75",
+                        "user": {
+                            "_id": "6551d6935e257ee3414c5ac6",
+                            "name": "Ar Tuhin",
+                            "rating": 0
+                        },
+                        "seats": 2,
+                        "status": "accepted"
+                    }
+                ],
+                "available": 0
+            },
+            "seats": 3,
+            "rate": 10,
+            "otp": "4092",
+            "category": {
+                "_id": "6576c279716f399b8e6ddfd1",
+                "name": "test",
+                "image": "https://appstick-resources.s3.ap-southeast-1.amazonaws.com/one-ride-storage/categories/C-46XUK6B//7cd3433a59159a45-t2.jpeg"
+            },
+            "status": "accepted",
+            "createdAt": "2023-12-24T10:13:30.486Z",
+            "available": 5
+        }
+    ]
+}
